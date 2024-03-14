@@ -19,6 +19,10 @@ body {
   background-color: bisque;
   border: 1px solid black;
 }
+#regress {
+  background-color: bisque;
+  border: 1px solid burlywood;
+}
 
 #pe {
   margin-top: 25rem;
