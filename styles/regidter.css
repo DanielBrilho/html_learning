@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+}
+
+#caixa {
+  background-color: rgba(240, 211, 175, 0.408);
+  border: 1px solid burlywood;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+#subb {
+  background-color: bisque;
+  border: 1px solid burlywood;
+}
+
+#manda{
+  background-color: bisque;
+  border: 1px solid black;
+}
