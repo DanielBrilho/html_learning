@@ -15,7 +15,11 @@ body {
   border: 1px solid burlywood;
 }
 
-#manda{
+#manda {
   background-color: bisque;
   border: 1px solid black;
+}
+
+#pe {
+  margin-top: 25rem;
 }
