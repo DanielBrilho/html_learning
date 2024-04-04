@@ -23,3 +23,11 @@ body {
 #pe{
 margin-top:25rem;
 }
+
+#corpinho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  justify-content: space-evenly; 
+}
