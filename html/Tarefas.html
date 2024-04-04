@@ -1,25 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Task</title>
-    <link rel="stylesheet" href="styles.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>jesus vive</title>
+    <link rel="stylesheet" href="../styles/Tarefas.css" />
+    
 </head>
-<body>
-    <a href="./32183.html">
-        <button id="ue" type="button">back</button>
-      </a>
-    <header>
-        <h1>Meu Site</h1>
+<body id="body">
+    <header id="corpinho2">
+        <img id="pfp" src="../styles/lego-batman.avif" alt="" />
+        <h1 id="hello">Hello user</h1>
+        <div id="sla">
+           
+            <a href="./perfil.html">
+                <button id="manda" type="button">User profile</button>
+            </a>
+            <a href="./32183.html">
+                <button id="manda" type="button">Back</button>
+            </a>
+            <div id="modal">
+                <div id="modal_content" class="seusEstilosDoSite">
+                    <h1>New Task</h1>
+                    <input type="text" id="novaTarefa" placeholder="Digite sua nova tarefa">
+                    <input type="text" id="novaTarefa" placeholder="Digite data">
+                    <button id="fechaaa" class="close" type="button">Adicionar</button>
+                  </div>
+                </div  >
+                <button  id="abrir"  type="button">New task</button>
+                </div>
+                  
+                
     </header>
-
-    <main>
-      <table>
-        
-      </table>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
-    </footer>
-</body>
+    <div>
+        <table class="redTable">
+            <thead>
+                <tr>
+                    <th>tarefa</th>
+                    <th>data</th>
+                    <th>EStado</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <div class="links">
+                            <a href="#">&laquo;</a> <a class="active" href="#">1</a>
+                            <a href="#">2</a> <a href="#">3</a> <a href="#">4</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Trabalho HTML</td>
+                    <td>32/13/3024</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Trabalho SRC</td>
+                    <td>32/13/3024</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tp1 ATS</td>
+                    <td>32/13/3024</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tp1 POP</td>
+                    <td>32/13/3024</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tp1 BDS</td>
+                    <td>32/13/3024</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
